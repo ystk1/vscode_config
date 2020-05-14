@@ -1,0 +1,43 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": -1,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.renderIndentGuides": false,
+    "markdown-pdf.convertOnSave": true,
+    "markdown-pdf.type": [
+        "pdf",
+        "html"
+    ],
+    "git.path": "D:\\Program Files\\Git\\cmd\\git.exe",
+    "git.autofetch": true,
+    "shellLauncher.shells.windows": [
+        {
+            "shell": "C:\\Windows\\System32\\cmd.exe",
+            "label": "cmd"
+        },
+        {
+            "shell": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "label": "PowerShell"
+        },
+        {
+            "shell": "D:\\Program Files\\Git\\bin\\bash.exe",
+            "label": "Git bash"
+        }
+    ],
+    "git.suggestSmartCommit": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.columnSelection": true,
+    "sync.gist": "137713b828997d18d7e864a613b29c98",
+    "sync.autoUpload": true,
+    "sync.forceUpload": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+        // ,
+        // {
+        //     "shell": "C:\\Windows\\sysnative\\bash.exe",
+        //     "label": "WSL Bash"
+        // }
+}

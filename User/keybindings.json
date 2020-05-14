@@ -1,0 +1,394 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します 
+[
+    {
+        "key": "ctrl+shift+cmd+d",
+        "command": "workbench.files.action.compareFileWith"
+    },
+    {
+		"key": "ctrl+e t",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+		"key": "ctrl+e ctrl+t",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+d ctrl+f",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+e ctrl+oem_plus",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+oem_5",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+insert",
+        "command": "-editor.action.clipboardCopyAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+e ctrl+f",
+        "command": "editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+f12",
+        "command": "-editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+e ctrl+g",
+        "command": "editor.action.goToTypeDefinition"
+    },
+    {
+        "key": "ctrl+e ctrl+oem_6",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "ctrl+e ctrl+oem_4",
+        "command": "workbench.action.closeEditorsToTheRight"
+	},
+  {
+		"key": "ctrl+k f12",
+		"command": "-editor.action.openDeclarationToTheSide",
+		"when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+	},
+	{
+		"key": "ctrl+x ctrl+c",
+		"command": "workbench.action.closeFolder"
+	},
+	{
+		"key": "ctrl+k f",
+		"command": "-workbench.action.closeFolder"
+	},
+	{
+		"key": "ctrl+e ctrl+w",
+		"command": "editor.action.clipboardCutAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+x",
+		"command": "-editor.action.clipboardCutAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+b ctrl+f",
+		"command": "workbench.action.joinTwoGroups"
+	},
+	{
+		"key": "ctrl+b ctrl+b",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "-workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+shift+i",
+		"command": "insertDateString.insertDate"
+	},
+	{
+		"key": "ctrl+shift+i",
+		"command": "-insertDateString.insertDateTime",
+		"when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "cursorUp",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+alt+p",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+      },
+      {
+        "key": "ctrl+e ctrl+e",
+        "command": "workbench.action.quickOpen"
+      },
+      {
+        "key": "ctrl+n",
+        "command": "cursorDown",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+f",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+alt+f",
+        "command": "defaultSettings.action.focusSearch",
+        "when": "defaultSettingsEditor"
+      },
+      {
+        "key": "ctrl+e ctrl+f",
+        "command": "actions.find"
+      },
+      {
+        "key": "ctrl+b",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+      },
+      {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+e ctrl+a",
+        "command": "editor.action.selectAll"
+      },
+      {
+        "key": "ctrl+e ctrl+e",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+alt+e",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+      },
+      {
+        "key": "ctrl+alt+e",
+        "command": "workbench.action.quickOpen"
+      },
+      {
+        "key": "ctrl+k ctrl+k",
+        "command": "deleteAllRight",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+d",
+        "command": "deleteRight",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+h",
+        "command": "deleteLeft",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+e ctrl+h",
+        "command": "editor.action.startFindReplaceAction"
+      },
+      {
+        "key": "ctrl+h",
+        "command": "-editor.action.startFindReplaceAction"
+      },
+      {
+        "key": "ctrl+x ctrl+s",
+        "command": "workbench.action.files.save"
+      },
+      {
+        "key": "ctrl+s",
+        "command": "-workbench.action.files.save"
+      },
+      {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+      },
+      {
+        "key": "ctrl+e ctrl+c",
+        "command": "editor.action.clipboardCopyAction",
+        "when": "textInputFocus"
+      },
+      {
+        "key": "ctrl+c",
+        "command": "-editor.action.clipboardCopyAction",
+        "when": "textInputFocus"
+      },
+      {
+        "key": "ctrl+insert",
+        "command": "-editor.action.clipboardCopyAction",
+        "when": "textInputFocus"
+      },
+      {
+        "key": "ctrl+e ctrl+n",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+      },
+      {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+      },
+      {
+        "key": "ctrl+e ctrl+m",
+        "command": "editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus"
+      },
+      {
+        "key": "ctrl+k ctrl+d",
+        "command": "-editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus"
+      },
+      {
+        "key": "ctrl+e ctrl+r",
+        "command": "editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+      },
+      {
+        "key": "shift+f12",
+        "command": "-editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+      },
+      {
+        "key": "ctrl+e ctrl+s",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+      },
+      {
+        "key": "f12",
+        "command": "-editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+      },
+      {
+        "key": "ctrl+e ctrl+d",
+        "command": "editor.action.revealDeclaration"
+      },
+      {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+      },
+      {
+        "key": "ctrl+shift+n",
+        "command": "-workbench.action.newWindow"
+      },
+      {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+      },
+      {
+        "key": "shift+delete",
+        "command": "-editor.action.clipboardCutAction",
+        "when": "textInputFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+e ctrl+w",
+        "command": "editor.action.clipboardCutAction",
+        "when": "textInputFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+x",
+        "command": "-editor.action.clipboardCutAction",
+        "when": "textInputFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+e ctrl+w",
+        "command": "notebook.cell.cut",
+        "when": "notebookEditorFocused && !inputFocus"
+      },
+      {
+        "key": "ctrl+x",
+        "command": "-notebook.cell.cut",
+        "when": "notebookEditorFocused && !inputFocus"
+      },
+      {
+        "key": "ctrl+e ctrl+v",
+        "command": "editor.action.clipboardPasteAction",
+        "when": "textInputFocus && !editorReadonly"
+      },
+      {
+        "key": "shift+insert",
+        "command": "-editor.action.clipboardPasteAction",
+        "when": "textInputFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+v",
+        "command": "-editor.action.clipboardPasteAction",
+        "when": "textInputFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+e ctrl+v",
+        "command": "workbench.action.terminal.paste",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+shift+v",
+        "command": "-workbench.action.terminal.paste",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+v",
+        "command": "-workbench.action.terminal.paste",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+e ctrl+v",
+        "command": "notebook.cell.paste",
+        "when": "notebookEditorFocused && !inputFocus"
+      },
+      {
+        "key": "ctrl+v",
+        "command": "-notebook.cell.paste",
+        "when": "notebookEditorFocused && !inputFocus"
+      },
+      {
+        "key": "ctrl+e ctrl+v",
+        "command": "notebook.cell.pasteAbove",
+        "when": "notebookEditorFocused && !inputFocus"
+      },
+      {
+        "key": "ctrl+shift+v",
+        "command": "-notebook.cell.pasteAbove",
+        "when": "notebookEditorFocused && !inputFocus"
+      },
+      {
+        "key": "ctrl+e ctrl+q",
+        "command": "-SQLTools.bookmarkSelection",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+f",
+        "command": "-actions.find"
+      },
+      {
+        "key": "ctrl+shift+e ctrl+shift+f",
+        "command": "workbench.action.findInFiles"
+      },
+      {
+        "key": "ctrl+shift+f",
+        "command": "-workbench.action.findInFiles"
+      },
+      {
+        "key": "ctrl+shift+e ctrl+shift+h",
+        "command": "workbench.action.replaceInFiles"
+      },
+      {
+        "key": "ctrl+shift+h",
+        "command": "-workbench.action.replaceInFiles"
+      },
+      {
+        "key": "ctrl+e ctrl+a",
+        "command": "-SQLTools.runFromBookmarks"
+      },
+      {
+        "key": "ctrl+e ctrl+a",
+        "command": "editor.action.selectAll",
+        "when": "textInputFocus"
+      },
+      {
+        "key": "ctrl+a",
+        "command": "-editor.action.selectAll",
+        "when": "textInputFocus"
+      },
+      {
+        "key": "ctrl+shift+f",
+        "command": "-workbench.view.search",
+        "when": "!searchViewletVisible"
+      }
+]
